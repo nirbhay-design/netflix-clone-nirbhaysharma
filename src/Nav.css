@@ -1,0 +1,33 @@
+.nav{
+    position:fixed;
+    top:0px;
+    display:flex;
+    width:100%;
+    padding:20px;
+    /* justify-content:space-between;
+    osition fixed has some clash with justify content; 
+    
+    */
+    z-index:1;
+    justify-content:space-between;
+    /* background-color:black; */
+    transition-timing-function:ease-in;
+    transition:all 0.5s;
+
+
+}
+.nav_black{
+    background-color:black;
+}
+.nav__logo{
+    object-fit:contain;
+    max-height:100px;
+    max-width:100px;
+}
+.nav__avatar{
+    object-fit:contain;
+    position:fixed;
+    right:20px;
+    max-height:75px;
+    max-width:75px;
+}
